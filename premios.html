@@ -3,46 +3,72 @@
     <head>
         <meta charset="utf-8">
         <title>Marc Anthony - Premios</title>
-        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!--link rel="stylesheet" href="css/estilos.css"-->
     </head>
     <body>
 
-        <div class="cabecera">
-            <br>
-            <h1>Marc Anthony</h1>
-            <br>
-        </div>
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a href="index.html">Inicio</a></li>
+                      <li><a href="biografia.html">Biografía</a></li>
+                      <li><a href="discografia.html">Discografía</a></li>
+                      <li><a href="filmo.html">Filmoteca</a></li>
+                      <li class="activo"><a href="premios.html">Premios</a></li>
+                      <li><a href="contacto.html">Contacto</a></li>
+
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Redes Sociales <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="https://www.facebook.com/officialmarcanthony/" target="_blank">Facebook</a></li>
+                              <li><a href="https://twitter.com/MarcAnthony" target="_blank">Twitter</a></li>
+                              <li><a href="https://www.instagram.com/marcanthony/" target="_blank">Instagram</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="http://www.marcanthonyonline.com/" target="_blank">Sitio Web</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+      </nav>
 
 
-        <div class="menu-navegacion">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="biografia.html">Biografía</a></li>
-                <li><a href="discografia.html">Discografía</a></li>
-                <li><a href="filmo.html">Filmoteca</a></li>
-                <li class="activo"><a href="premios.html">Premios</a></li>
-            </ul>
-        </div>
-    <center>
+  <!-- <center> -->
 
         <div class="contenido">
             <hr>
-            <br><br><br><br><br>
-            <img src="imagenes/foto2.jpg" alt="MC">
-            <br><br><br><br><br>
+
+            <img class="hd" src="imagenes/ma_1.jpg" alt="MC">
+
             <hr>
         </div>
 
 
-    </center>
+    <!-- </center> -->
 
-    <div class="menu-navegacion footer ">
-        <ul>
-            <li><a href="http://www.marcanthonyonline.com/">Sitio Web</a></li>
-            <li><a href="https://www.facebook.com/officialmarcanthony/" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com/MarcAnthony">twitter</a></li>
-            <li><a href="https://www.instagram.com/marcanthony/">Instagram</a></li>
-        </ul>
-    </div>
-</body>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Copyright &copy; 2017</span>
+            <br>
+            <span class="text-muted">Gutierrez Ahumada María Alejandra</span>
+            <br>
+        </div>
+    </footer>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
 </html>

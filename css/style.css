@@ -1,0 +1,101 @@
+html boby{
+    height: 100%;
+}
+
+.navbar, .navbar-default, .container-fluid, .navbar-header, .collapse .navbar-collapse{
+    background-color: black;
+    margin: 0px;
+}
+
+#carousel-example-generic{
+    background-color: black;
+}
+
+
+li.activo{
+    background-color: #fff;
+    color: purple;
+}
+
+li:hover{
+    background-color: #a3a3c2;
+}
+
+li.info{
+    list-style: none;
+}
+
+li.info:hover{
+    background-color: inherit;
+}
+
+.dropdowon{
+    color:white;
+}
+
+div.container{
+    text-align: center;
+}
+
+.contenido{
+  width: 80%;
+    text-align: center;
+}
+
+footer{
+    background-color: #a3a3c2;
+    padding: 10px;
+    margin: 0px;
+}
+
+hr{
+    width: 70%;
+}
+/*biografia*/
+.renglon{
+    width: 90%;
+    display: inline-block;
+}
+
+
+.izquierdo{
+    width: 30%;
+    float: left;
+    /*clear: left;*/
+}
+
+.derecho{
+    width: 70%;
+    float: right;
+}
+
+.izquierdo img{
+    width: 80%;
+    border: 1px;
+    padding: 20px;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+
+th{
+  border: 1px;
+  background-color: #52527a;
+  color: #a3a3c2;
+  text-align: center;
+}
+
+tr{
+  border: 0px 0px 1px 0px;
+}
+
+td{
+  padding: 10px;
+  text-align: justify;
+}
+
+.hd{
+  width: 30%;
+}
